@@ -1,16 +1,146 @@
-# React + Vite
+# CU Fest Landing Page — Experiment 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern and responsive web page built using React and UI component libraries. It demonstrates component-based UI design, clean layout structure, and responsive design principles.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objective
 
-## React Compiler
+The objective of this experiment is to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Learn component-based UI design
+* Understand React folder structuring
+* Build a meaningful real-world webpage
+* Apply modern UI/UX principles
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Project Overview
+
+This project is a **College Fest Landing Page** designed for CU Fest 2026.
+
+It includes:
+
+* Hero section introducing the event
+* Event highlights
+* Navigation bar
+* Footer
+* Responsive layout
+
+---
+
+## 🎨 UI & Design Features
+
+✅ Clean and modern layout
+✅ Proper spacing and typography
+✅ Consitent color scheme
+✅ Responsive design (mobile + desktop)
+✅ Component-based structure
+
+---
+
+## 🧩 Functionality
+
+* Navigation bar for easy access
+* Event highlight cards
+* Hero section with call-to-action
+* Fully responsive UI
+
+---
+
+## 🛠 Technologies Used
+
+* React (Vite)
+* Bootstrap
+* Material UI (MUI)
+* CSS
+
+---
+
+## 📁 Folder Structure
+
+```id="8glq4r"
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── HeroSection.jsx
+│   └── CardComponent.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📚 UI Libraries Setup
+
+### Bootstrap Installation
+
+```id="k3xjca"
+npm install react-bootstrap bootstrap
+```
+
+Import Bootstrap in `main.jsx`:
+
+```id="bnsvkn"
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+---
+
+### Material UI Installation
+
+```id="phld3o"
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+Material UI components can now be imported and used.
+
+---
+
+## 📸 Screenshots
+
+Screenshots of the webpage are available in the `/screenshots` folder.
+
+---
+
+## ▶️ Run the Project
+
+```bash id="c3x3u8"
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+The project is deployed using Vercel.
+
+Deployment format:
+
+```
+23bai70354-2-rijuta.vercel.app
+```
+
+---
+
+## 🎓 Learning Outcomes
+
+* Understanding component-based design
+* Creating responsive layouts
+* Using Bootstrap & Material UI components
+* Structuring React projects effectively
+
+---
+
+## 👩‍💻 Author
+
+**Rijuta Sharma**
+UID: 23BAI70354
